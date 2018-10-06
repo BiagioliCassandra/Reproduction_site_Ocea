@@ -20,22 +20,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~
       Start header
 ~~~~~~~~~~~~~~~~~~~~~~-->
-  <header>
-    <nav>
-      <ul>
-        <li><i></i></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </nav>
-    <div>
-      <div>
-        <p></p>
-      </div>
-    </div>
-  </header>
+  
 <!--~~~~~~~~~~~~~~~~~~~~~
       End header
 ~~~~~~~~~~~~~~~~~~~~~~-->
@@ -44,20 +29,52 @@
 ~~~~~~~~~~~~~~~~~~~~~~-->
   <main>
   <!--the two div of the top bar that scrolls-->
-    <div>
+    <div class="flex">
       <aside>
         <i></i>
         <i></i>
         <i></i>
       </aside>
     </div>
-    <div>
+    <div class="flex">
       <aside>
         <form>
               
         </form>
       </aside>
     </div>
+  <!--The section ocea sport containing 4 div-->
+    <section>
+      <h1 id="oceasport" class="center">Ocea Sport</h1>
+      <div class="flex">
+        <i></i>
+        <p>Un club ouvert 7 jours sur 7</p>
+      </div>
+      <div class="flex">
+        <i></i>
+        <p>Plus de 100 cours collectifs<br> chaque semaine</p>
+      </div>
+      <div class="flex">
+        <i></i>
+        <p>6 salles dont un studio RPM avec<br> plus de 70 vélos</p>
+      </div>
+      <div class="flex">
+        <i></i>
+        <p>7000 m² d'infrastructures</p>
+      </div>
+      <a class="center a" href="http://www.oceaclub.com/decouverte.php">TESTEZ-NOUS !</a>
+    </section>
+  <!--the section "notre contrat" containing h2, p and video-->
+    <section></section>
+      <h2>Notre contrat</h2>
+      <p>Pas de sentiment d'abandon à Ocea ! Nos nombreux éducateurs sportifs, tous diplômés d'état, sont à votre disposition pour atteindre vos objectifs, vous conseiller et<br> vous guider tout au long de votre entrainement.</p>
+      <div>
+        <iframe src="https://player.vimeo.com/video/272767022" width="640" height="360" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+  <!---->
+    <section>
+
+    </section>
   </main>
 <!--~~~~~~~~~~~~~~~~~~~~~
       End main
@@ -65,60 +82,11 @@
 <!--~~~~~~~~~~~~~~~~~~~~~
       Start footer
 ~~~~~~~~~~~~~~~~~~~~~~-->
-  <footer>
-    <div>
-      <section>
-        <h3>Ocea</h3>
-        <ul>
-          <li>51 rue de la Cimaise</li>
-          <li>59650 Villeneuve d'Ascq</li>
-          <li>03.20.47.03.03</li>
-          <li>accueil at oceaclub.com</li>
-        </ul>
-      </section>
-      <section>
-        <h3>Ocea Sport</h3>
-        <ul>
-          <li><a>Le planning</a></li>
-          <li><a>Les cours</a></li>
-          <li><a>Les tarifs</a></li>
-          <li><a>L'offre découverte</a></li>
-          <li><a>Réserver un cours de badminton</a></li>
-          <li><a>Réserver un atelier</a></li>
-          <li><a>Résilier</a></li>
-        </ul>
-      </section>
-      <section>
-        <h3>Ocea Esthétique</h3>
-        <ul>
-          <li><a>Solutions Beauté Visage</a></li>
-          <li><a>Solutions Beauté Corps</a></li>
-          <li><a>Expériences Payot</a></li>
-          <li><a>Modelages "Bien-Etre"</a></li>
-          <li><a>Formules Complètes "Forfaits"</a></li>
-          <li><a>Mains, Pieds et Ongles</a></li>
-          <li><a>Épilations</a></li>
-          <li><a>Maquillage, Beauté du regard</a></li>
-        </ul>
-      </section>
-      <section>
-        <h3>Ocea Sun</h3>
-        <ul>
-          <li><a>Les machines</a></li>
-          <li><a>Les tarifs</a></li>
-          <li><a>Les produits</a></li>
-          <li><a>Réserver une séance</a></li>
-        </ul>
-      </section>
-    </div>
-    <hr>
-    <p>© 2018 Oxygene Studio - C.G.V. - Mentions Légales</p>
-  </footer>
+<?php include("footer.php"); ?>
 <!--~~~~~~~~~~~~~~~~~~~~~
       End footer
 ~~~~~~~~~~~~~~~~~~~~~~-->
   
-  <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
