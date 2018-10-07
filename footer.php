@@ -68,7 +68,7 @@
     </div>
     <div class="footer">
       <hr>
-      <p class="color_white center">© 2018 Oxygene Studio - C.G.V. - Mentions Légales</p>
+      <p class="color_white center margin_bottom">© 2018 Oxygene Studio - C.G.V. - Mentions Légales</p>
     </div>
 </footer>
 <!--~~~~~~~~~~~~~~~~~~~~~
