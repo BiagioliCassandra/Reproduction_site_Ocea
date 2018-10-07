@@ -100,6 +100,9 @@ textarea {
 .flex {
     display: flex;
 }
+.space_around {
+    justify-content: space-around;
+}
 .center {
     text-align: center;
 }
@@ -112,6 +115,24 @@ textarea {
 }
 .color_black {
     color: black;
+}
+.color_pink {
+    color: #ed008c;
+}
+.color_purple {
+    color: #af3896;
+}
+.color_orange {
+    color: #ff8000;
+}
+.backgroundcolor_pink {
+    background-color: rgb(237, 0, 140);
+}
+.backgroundcolor_purple {
+    background-color: rgb(175, 56, 150);
+}
+.backgroundcolor_orange {
+    background-color: #ff8000;
 }
 .marginRight_auto {
     margin-right: auto;
